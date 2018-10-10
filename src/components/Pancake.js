@@ -16,7 +16,7 @@ componentDidMount(){
 }
   // TODO: create a componentWillUnmount() which will clear the interval
 componentWillUnmount(){
-
+  clearUpInterval()
 }
   updateCounter = () => {
     this.setState({
